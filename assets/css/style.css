@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+  
+  header {
+    padding: 30px;
+    color: black;
+    width: 25%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  #category {
+    width: 300px;
+  }
+
+  #background {
+    background-size: cover;
+  }
+
+  #track {
+    width:500px;
+  }
+  
