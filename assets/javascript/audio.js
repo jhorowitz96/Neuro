@@ -128,7 +128,7 @@ function renderTracks() {
   $("url").empty();
 
   for (var i = 0; i < tracks.length; i++) {
-    var song = $("<song>");
+    var song = $("<label>");
 
     song.addClass("song");
 
@@ -147,6 +147,12 @@ $("#submit").on("click", function (event) {
 
   event.preventDefault();
   console.log(tracks[2]);
+  var index = tracks.findIndex(function(songs, index){
+  
+    console.log(songs.label === "Relaxation")
+  })
+
+  //Creating conditional if category = Relaxation display Relaxation tracks, if category = Meditation, display Meditation tracks, if category = Breathing, display Breathing tracks.
 
   $("#label").push("TEST");
 
